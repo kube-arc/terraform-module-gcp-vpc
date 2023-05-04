@@ -1,6 +1,6 @@
 # terraform-google-vpc
 
-이 모듈은 [terraform-google-module-template](https://stash.wemakeprice.com/users/lswoo/repos/terraoform-google-module-template/browse)에 의해서 생성되었습니다. 
+이 모듈은 [terraform-google-module-template](https://github.com/kube-arc/terraform-module-gcp-template)에 의해서 생성되었습니다. 
 
 The resources/services/activations/deletions that this module will create/trigger are:
 
@@ -12,7 +12,7 @@ The resources/services/activations/deletions that this module will create/trigge
 
 ```hcl
 module "vpc" {
-  source  = "git::https://stash.wemakeprice.com/scm/tgm/terraform-google-vpc.git"
+  source  = "git::https://github.com/kube-arc/terraform-module-gcp-vpc.git"
 
   project_id  = "my-prod-project"
   network_name = "vpc-network-1"
